@@ -1,0 +1,227 @@
+@media all and (max-width: 1380px){
+    .video-blocks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .features{
+        margin: 50px 0;
+    }
+    .features h2, .features p{
+        text-align: center;
+    }
+    .feature-blocks{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media all and (max-width: 1280px){
+    .content-nav{
+        padding: 30px 45px 0 100px;
+    }
+    .content{
+        padding: 0 100px;
+    }
+   
+}
+@media all and (max-width: 1080px){
+    .cover{
+        height: auto;
+        background-size: 170% 100%;
+    }
+     .partners{
+        flex-direction: column;
+    }
+    .partners h3{
+        width: 100%;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+    .boxes{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .blue-box{
+        margin: 30px 0 200px 0;
+    }
+    .main-content{
+        text-align: center;
+    }
+    .main-content p{
+        max-width: 100%;
+    }
+    .two-links{
+        justify-content: center;
+    }
+    .blocks{
+        justify-content: space-around;
+    }
+    .block, .container{
+        width: 230px;
+        margin: 15px 5%;
+    }
+    .feature-blocks{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .feature-1, .feature-2{
+        margin: 0 auto 30px auto;
+    }
+    .clients img{
+        margin: 0 10% 60px 10%;
+    }
+    .clients{
+        padding-top: 80px;
+    }
+    
+    .info{
+        padding: 50px 0 30px 0;
+    }
+    .info-box{
+        width: 33%;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 1080px) and (min-width: 800px){
+    .connection{
+        position: relative;
+        padding-bottom: 430px;
+    }
+
+    .connection-block-1:first-child{
+        margin-right: 10px;
+    }
+    .connection-block-2{
+        position: absolute;
+        bottom: 30px;
+    }
+}
+
+@media all and (max-width: 800px){
+    .content-nav{
+        padding: 30px 40px 0 40px;
+    }
+    .navbar{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .logotype{
+        margin: 0;
+    }
+    .vector2{
+        display: block;
+        width: 100px;
+        padding-top: 7px;
+        cursor: pointer;
+    }
+
+    .vector2 img{
+        display: block;
+        float: right;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        padding-top: 130px;
+    }
+    .menu li{
+        font-size: 30px;
+        line-height: 60px;
+        margin: auto;
+        font-weight: normal;
+    }
+    .two-links{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-a, .second-a{
+        margin: auto;
+        margin-top: 35px;
+    }
+    
+    .middle-box{
+        margin-top: 30px;
+    }
+    .main-text{
+        font-weight: 700;
+        font-size: 40px;
+        color: #252B42;
+    }
+    .hidden{
+        display: none;
+    }
+    .hidden-partners{
+        display: flex;
+        height: 100%;
+        transform: none;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .third-background{
+        height:210px;
+    }
+    .hidden-partners h3{
+        margin: 0;
+        text-align: center;
+    }
+    .connection{
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .connection-block{
+        margin-bottom: 30px;
+    }
+    .contact-us{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn-contact, .networks{
+        margin-top: 50px;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info-box{
+        margin: auto;
+    }
+    .info-box h5{
+        margin-top: 30px;
+    }
+    .getcontact{
+        margin-bottom: 50px;
+    }
+    .clients{
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 650px){
+    .video-box{
+        width: 450px;
+    }
+    .clients{
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 480px){
+    .content{
+        padding: 0 85px;
+    }
+    .video-box{
+        width: 320px;
+    }
+    .hidden-partners input{
+        width: auto;
+    }
+    .info-box {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 370px){
+    .hidden-partners input{
+        width: 150px;
+    }
+}
